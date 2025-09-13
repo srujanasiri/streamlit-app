@@ -59,6 +59,5 @@ uploaded_file = st.file_uploader("Choose a file", type=["pdf", "docx"])
             ax.imshow(wordcloud, interpolation="bilinear")
             ax.axis("off")
             st.pyplot(fig)
-
-if _name_ == "_main_":
-    main()
+if __name__="__main__":
+    main()
