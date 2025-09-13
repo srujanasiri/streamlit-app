@@ -1,4 +1,3 @@
-%%writefile wcc.py
 import streamlit as st
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
